@@ -17,8 +17,8 @@ samples, guidance on mobile development, and a full API reference.
 
 To download the project and see the demo, run these set of command-
 
-$ git clone git@github.com:siddiqbarbhuiya/shop_app_flutter.git
-$ cd shop_app_flutter
+- $ git clone git@github.com:siddiqbarbhuiya/shop_app_flutter.git
+- $ cd shop_app_flutter
 
 now got the shop_app_flutter directory and run
-$flutter pub get
+-$flutter pub get
