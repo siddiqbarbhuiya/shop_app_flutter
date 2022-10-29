@@ -14,4 +14,11 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
-<!-- added -->
+
+To download the project and see the demo, run these set of command-
+
+$ git clone git@github.com:siddiqbarbhuiya/shop_app_flutter.git
+$ cd shop_app_flutter
+
+now got the shop_app_flutter directory and run
+$flutter pub get
