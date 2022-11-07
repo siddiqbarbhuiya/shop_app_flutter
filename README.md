@@ -21,4 +21,4 @@ To download the project and see the demo, run these set of command-
 - $ cd shop_app_flutter
 
 now got the shop_app_flutter directory and run-
-- $ flutter pub get
+- $ flutter pub get             

@@ -1,5 +1,8 @@
 // ignore_for_file: unused_field, prefer_final_fields, avoid_print
 
+import 'dart:ffi';
+
+import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:shop_app/models/http_exception.dart';
 import 'product.dart';
@@ -259,7 +262,7 @@ class Products with ChangeNotifier {
             id: prodId,
             title: prodData['title'],
             description: prodData['description'],
-            price: prodData['price'],
+            price: double.tryParse(prodData['price'].toString())!,
             imageUrl: prodData['imageUrl'],
             isFavorite:
                 favoriteData == null ? false : favoriteData[prodId] ?? false));
@@ -308,3 +311,7 @@ class Products with ChangeNotifier {
 
 
 // sidd@gmail.com
+
+
+
+
